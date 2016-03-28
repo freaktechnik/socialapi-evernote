@@ -6,14 +6,14 @@
         
         <script type="application/javascript">
             var provider = {
-                "shareURL": "https://evernote.com/clip.action?url=%{url}&title=%{title}",
+                "shareURL": "http://www.evernote.com/clip.action?url=%{url}&title=%{title}",
                 "iconURL": "https://corpassets.evernote.com/media/img/favicon.ico",
                 "icon32URL": "https://corpassets.evernote.com/media/img/favicon.ico",
                 "icon64URL": "https://corpassets.evernote.com/media/img/favicon.ico",
                 "name": "Evernote",
                 "description": "Add websites to evernote",
                 "author": "Martin Giger",
-                "homepageURL": "http://freaktechnik.github.io/socialapi-evernote"
+                "homepageURL": "https://freaktechnik.github.io/socialapi-evernote"
             };
             
             function activate(onNode) {
@@ -24,7 +24,7 @@
         </script>
     </head>
     <body>
-        <p>When clicking the button Evernote is added as a sharing method to Firefox, does not work with vanilla Firefox. For other methods, check out <a href="https://activations.cdn.mozilla.net/en-US/" title="Services for Firefox">the official services</a>.</p>
+        <p>When clicking the button Evernote is added as a sharing method to Firefox. For other methods, check out <a href="https://activations.cdn.mozilla.net/en-US/" title="Services for Firefox">the official services</a>.</p>
         <button id="activateButton">Add Evernote SocialAPI Provider</button>
         <script type="application/javascript">
             document.getElementById("activateButton").addEventListener("click", function(event) {
