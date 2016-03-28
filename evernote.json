@@ -1,0 +1,10 @@
+{
+    "shareURL": "https://evernote.com/clip.action?url=%{url}&title=%{title}",
+    "iconURL": "https://corpassets.evernote.com/media/img/favicon.ico",
+    "icon32URL": "https://corpassets.evernote.com/media/img/favicon.ico",
+    "icon64URL": "https://corpassets.evernote.com/media/img/favicon.ico",
+    "name": "Evernote",
+    "description": "Add websites to evernote",
+    "author": "Martin Giger",
+    "homepageURL": "http://freaktechnik.github.io/socialapi-evernote"
+}
